@@ -4,7 +4,7 @@
     <!-- HERO SECTION -->
     <div
       class="relative h-[70vh] bg-cover bg-center flex items-center justify-center"
-      style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1600&auto=format&fit=crop');"
+      style="background-image: url('https://i.pinimg.com/736x/ec/f8/57/ecf8577dae33ed28d1fcad325f0b6056.jpg');"
     >
       <!-- Overlay -->
       <div class="absolute inset-0 bg-black/60"></div>
@@ -30,7 +30,7 @@
         <!-- IMAGE -->
         <div>
           <img
-            src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop"
+            src="https://i.pinimg.com/1200x/e9/22/a7/e922a7eca956f85e96f115adc9d9b3d1.jpg"
             alt="Rwanda Landscape"
             class="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
           />
