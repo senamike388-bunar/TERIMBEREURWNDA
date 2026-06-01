@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white">
         <h1 class="text-5xl md:text-7xl font-bold mb-6">
-          Southern Province
+          {{ t('destinations.southern.title') }}
         </h1>
 
         <p class="text-xl md:text-2xl">
-          The Cultural Heart of Rwanda
+          {{ t('destinations.southern.heroText') }}
         </p>
       </div>
     </section>
@@ -46,7 +46,7 @@
     <!-- ATTRACTIONS -->
     <section class="py-20 px-8 md:px-20">
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        Top Attractions
+        {{ t('destinations.common.topAttractions') }}
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -135,11 +135,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white text-center py-12">
       <h2 class="text-4xl font-bold mb-4">
-        Visit Southern Province
+        {{ t('destinations.southern.footerTitle') }}
       </h2>
 
       <p>
-        Discover Rwanda's Rich Cultural Heritage
+        {{ t('destinations.southern.footerText') }}
       </p>
     </footer>
 
@@ -147,4 +147,6 @@
 </template>
 
 <script setup>
+import { useI18n } from '../i18n.js'
+const { t } = useI18n()
 </script>

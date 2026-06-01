@@ -7,9 +7,9 @@ import video from '../views/video.vue'
 import Photos from '../views/photos.vue'
 import Kigali from '../views/kigali.vue'
 import northern from '../views/northern.vue'
-import Southern from '../views/southern .vue'
+import Southern from '../views/southern.vue'
 import Eastern from '../views/Eastern.vue'
-import Western from '../views/western .vue'
+import Western from '../views/western.vue'
 
 
 const routes = [
@@ -55,8 +55,8 @@ const routes = [
     component:northern,
   },
   {
-     path:'/southern',
-    name:'southern',
+     path:'/Southern',
+    name:'Southern',
     component:Southern,
   },
   {

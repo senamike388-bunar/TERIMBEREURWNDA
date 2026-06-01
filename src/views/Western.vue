@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white px-4">
         <h1 class="text-5xl md:text-7xl font-bold mb-6">
-          Western Province
+          {{ t('destinations.western.title') }}
         </h1>
 
         <p class="text-xl md:text-2xl">
-          Home of Lake Kivu and Nyungwe Forest
+          {{ t('destinations.western.heroText') }}
         </p>
       </div>
     </section>
@@ -134,7 +134,7 @@
     <section class="py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        Western Province Gallery
+        {{ t('destinations.western.galleryTitle') }}
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -251,11 +251,11 @@
     <footer class="bg-green-900 text-white text-center py-12">
 
       <h2 class="text-4xl font-bold mb-4">
-        Visit Western Province
+        {{ t('destinations.western.footerTitle') }}
       </h2>
 
       <p class="text-gray-300">
-        Discover Rwanda's Natural Paradise
+        {{ t('destinations.western.footerText') }}
       </p>
 
     </footer>
@@ -264,4 +264,6 @@
 </template>
 
 <script setup>
+import { useI18n } from '../i18n.js'
+const { t } = useI18n()
 </script>

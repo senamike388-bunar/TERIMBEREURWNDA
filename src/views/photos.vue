@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white px-6">
         <h1 class="text-5xl md:text-7xl font-bold mb-4">
-          Rwanda Gallery
+          {{ t('gallery.heroTitle') }}
         </h1>
 
         <p class="text-xl md:text-2xl text-gray-200">
-          Discover Rwanda's Hills, Parks, Wildlife and Natural Beauty
+          {{ t('gallery.heroText') }}
         </p>
       </div>
     </div>
@@ -44,11 +44,11 @@
     <!-- TITLE -->
     <div class="text-center py-12 px-6">
       <h2 class="text-4xl font-bold text-green-700 mb-4">
-        Explore Rwanda
+        {{ t('gallery.sectionTitle') }}
       </h2>
 
       <p class="text-gray-600 text-lg">
-        The Land of a Thousand Hills
+        {{ t('gallery.sectionText') }}
       </p>
     </div>
 
@@ -152,11 +152,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white text-center py-10">
       <h2 class="text-3xl font-bold mb-3">
-        Visit Rwanda
+        {{ t('gallery.footerTitle') }}
       </h2>
 
       <p class="text-gray-300">
-        Experience Nature • Culture • Wildlife • Adventure
+        {{ t('gallery.footerText') }}
       </p>
     </footer>
 
@@ -164,4 +164,6 @@
 </template>
 
 <script setup>
+import { useI18n } from '../i18n.js'
+const { t } = useI18n()
 </script>

@@ -14,12 +14,11 @@
     <div class="text-white px-10 md:px-20 max-w-3xl">
       
       <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
-        Welcome to Rwanda
+        {{ t('home.heroTitle') }}
       </h1>
 
       <p class="text-lg md:text-2xl mb-8 text-gray-200">
-        Discover the beauty of the Land of a Thousand Hills,
-        where culture, nature, cleanliness, peace, and innovation meet together.
+        {{ t('home.heroText') }}
       </p>
 
      <div class="flex gap-5 justify-center">
@@ -28,14 +27,14 @@
     to="/services"
     class="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-3 rounded-lg transition duration-300"
   >
-    Explore Rwanda
+    {{ t('home.exploreButton') }}
   </router-link>
 
   <router-link
     to="/about"
     class="border border-white hover:bg-white hover:text-black px-8 py-3 rounded-lg transition duration-300"
   >
-    Learn More
+    {{ t('home.learnButton') }}
   </router-link>
 
 </div>
@@ -56,18 +55,15 @@
 
         <div>
           <h2 class="text-4xl font-bold text-green-700 mb-6">
-            The Heart of Africa
+            {{ t('home.sectionTitle') }}
           </h2>
 
           <p class="text-gray-600 text-lg leading-8 mb-6">
-            Rwanda is known for its breathtaking hills, mountain gorillas,
-            beautiful culture, safety, and rapid development.
-            Kigali, the capital city, is among the cleanest cities in Africa.
+            {{ t('home.sectionText1') }}
           </p>
 
           <p class="text-gray-600 text-lg leading-8">
-            From tourism and technology to agriculture and sports,
-            Rwanda continues to inspire the world with unity and innovation.
+            {{ t('home.sectionText2') }}
           </p>
         </div>
       </div>
@@ -78,11 +74,11 @@
 
       <div class="text-center mb-14">
         <h2 class="text-4xl font-bold text-green-700">
-          Why Visit Rwanda?
+          {{ t('home.featuresTitle') }}
         </h2>
 
         <p class="text-gray-600 mt-4 text-lg">
-          Experience nature, culture, wildlife, and modern Africa.
+          {{ t('home.featuresText') }}
         </p>
       </div>
 
@@ -99,11 +95,11 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700 mb-4">
-              Mountain Gorillas
+              {{ t('home.feature1Title') }}
             </h3>
 
             <p class="text-gray-600 leading-7">
-              Visit Volcanoes National Park and experience Rwanda’s famous gorillas.
+              {{ t('home.feature1Text') }}
             </p>
           </div>
         </div>
@@ -119,11 +115,11 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700 mb-4">
-              Beautiful Culture
+              {{ t('home.feature2Title') }}
             </h3>
 
             <p class="text-gray-600 leading-7">
-              Enjoy traditional dance, art, music, and Rwanda’s rich heritage.
+              {{ t('home.feature2Text') }}
             </p>
           </div>
         </div>
@@ -139,11 +135,11 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700 mb-4">
-              Amazing Nature
+              {{ t('home.feature3Title') }}
             </h3>
 
             <p class="text-gray-600 leading-7">
-              Explore lakes, green hills, forests, and beautiful landscapes.
+              {{ t('home.feature3Text') }}
             </p>
           </div>
         </div>
@@ -158,22 +154,22 @@
 
         <div>
           <h1 class="text-5xl font-bold mb-3">1000+</h1>
-          <p class="text-lg">Beautiful Hills</p>
+          <p class="text-lg">{{ t('home.statsHills') }}</p>
         </div>
 
         <div>
           <h1 class="text-5xl font-bold mb-3">4</h1>
-          <p class="text-lg">National Parks</p>
+          <p class="text-lg">{{ t('home.statsParks') }}</p>
         </div>
 
         <div>
           <h1 class="text-5xl font-bold mb-3">135+</h1>
-          <p class="text-lg">Bird Species</p>
+          <p class="text-lg">{{ t('home.statsBirds') }}</p>
         </div>
 
         <div>
           <h1 class="text-5xl font-bold mb-3">1M+</h1>
-          <p class="text-lg">Visitors Every Year</p>
+          <p class="text-lg">{{ t('home.statsVisitors') }}</p>
         </div>
 
       </div>
@@ -184,7 +180,7 @@
 
       <div class="text-center mb-14">
         <h2 class="text-4xl font-bold text-green-700">
-          Explore Rwanda
+          {{ t('home.galleryTitle') }}
         </h2>
       </div>
 
@@ -211,11 +207,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white py-10 text-center">
       <h2 class="text-3xl font-bold mb-3">
-        Visit Rwanda
+        {{ t('home.footerTitle') }}
       </h2>
 
       <p class="text-gray-300">
-        Experience Peace, Beauty, and Culture
+        {{ t('home.footerText') }}
       </p>
     </footer>
 
@@ -223,4 +219,6 @@
 </template>
 
 <script setup>
+import { useI18n } from '../i18n.js'
+const { t } = useI18n()
 </script>

@@ -12,12 +12,11 @@
       <!-- Text -->
       <div class="relative z-10 text-center text-white px-6">
         <h1 class="text-5xl md:text-7xl font-bold mb-6">
-          About Rwanda
+          {{ t('about.heroTitle') }}
         </h1>
 
         <p class="text-lg md:text-2xl max-w-3xl mx-auto text-gray-200">
-          Rwanda is a country of peace, beauty, culture, and innovation.
-          Discover the story behind the Land of a Thousand Hills.
+          {{ t('about.heroText') }}
         </p>
       </div>
     </div>
@@ -39,26 +38,19 @@
         <!-- TEXT -->
         <div>
           <h2 class="text-4xl font-bold text-green-700 mb-6">
-            The Land of a Thousand Hills
+            {{ t('about.sectionTitle') }}
           </h2>
 
           <p class="text-gray-700 text-lg leading-9 mb-6">
-            Rwanda is located in East Africa and is known for its green hills,
-            wildlife, clean cities, and welcoming people.
-            The country has become one of Africa’s fastest-growing nations
-            in technology, tourism, and development.
+            {{ t('about.paragraph1') }}
           </p>
 
           <p class="text-gray-700 text-lg leading-9 mb-6">
-            Kigali, the capital city, is famous for its cleanliness and safety.
-            Rwanda is also home to rare mountain gorillas found in Volcanoes
-            National Park.
+            {{ t('about.paragraph2') }}
           </p>
 
           <p class="text-gray-700 text-lg leading-9">
-            The people of Rwanda value unity, hard work, peace,
-            and culture. Traditional dances, art, and music remain
-            an important part of daily life.
+            {{ t('about.paragraph3') }}
           </p>
         </div>
 
@@ -70,11 +62,11 @@
 
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-green-700 mb-4">
-          What Makes Rwanda Special
+          {{ t('about.valuesTitle') }}
         </h2>
 
         <p class="text-gray-600 text-lg">
-          Rwanda continues to inspire Africa and the world.
+          {{ t('about.valuesText') }}
         </p>
       </div>
 
@@ -87,12 +79,11 @@
           </div>
 
           <h3 class="text-2xl font-bold mb-4">
-            Tourism
+            {{ t('about.card1Title') }}
           </h3>
 
           <p class="text-gray-600 leading-8">
-            Rwanda attracts visitors from around the world because of its
-            wildlife, lakes, mountains, and natural beauty.
+            {{ t('about.card1Text') }}
           </p>
         </div>
 
@@ -103,12 +94,11 @@
           </div>
 
           <h3 class="text-2xl font-bold mb-4">
-            Clean Cities
+            {{ t('about.card2Title') }}
           </h3>
 
           <p class="text-gray-600 leading-8">
-            Kigali is recognized as one of the cleanest and safest cities
-            in Africa because of community responsibility and development.
+            {{ t('about.card2Text') }}
           </p>
         </div>
 
@@ -119,12 +109,11 @@
           </div>
 
           <h3 class="text-2xl font-bold mb-4">
-            Innovation
+            {{ t('about.card3Title') }}
           </h3>
 
           <p class="text-gray-600 leading-8">
-            Rwanda is investing in technology, education, and innovation
-            to create a better future for young people.
+            {{ t('about.card3Text') }}
           </p>
         </div>
 
@@ -134,11 +123,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white py-10 text-center">
       <h2 class="text-3xl font-bold mb-3">
-        Proudly Rwandan
+        {{ t('about.footerTitle') }}
       </h2>
 
       <p class="text-gray-300">
-        Unity • Peace • Progress
+        {{ t('about.footerText') }}
       </p>
     </footer>
 
@@ -146,4 +135,6 @@
 </template>
 
 <script setup>
+import { useI18n } from '../i18n.js'
+const { t } = useI18n()
 </script>

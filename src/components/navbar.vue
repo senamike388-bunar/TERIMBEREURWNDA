@@ -16,28 +16,28 @@
       <!-- Home -->
       <li>
         <RouterLink to="/" class="hover:text-yellow-300 transition">
-          Home
+          {{ t('nav.home') }}
         </RouterLink>
       </li>
 
       <!-- About -->
       <li>
         <RouterLink to="/about" class="hover:text-yellow-300 transition">
-          About us
+          {{ t('nav.about') }}
         </RouterLink>
       </li>
 
       <!-- Services -->
       <li>
         <RouterLink to="/services" class="hover:text-yellow-300 transition">
-          Services
+          {{ t('nav.services') }}
         </RouterLink>
       </li>
 
       <!-- Gallery Dropdown -->
       <li class="relative group">
         <span class="hover:text-yellow-300 cursor-pointer">
-          Gallery ▼
+          {{ t('nav.gallery') }} ▼
         </span>
 
         <ul
@@ -48,7 +48,7 @@
               to="/photos"
               class="block px-4 py-2 hover:bg-green-800 hover:text-white"
             >
-              Photos
+              {{ t('nav.galleryPhotos') }}
             </RouterLink>
           </li>
 
@@ -57,7 +57,7 @@
               to="/video"
               class="block px-4 py-2 hover:bg-green-800 hover:text-white"
             >
-              Videos
+              {{ t('nav.galleryVideos') }}
             </RouterLink>
           </li>
         </ul>
@@ -66,7 +66,7 @@
       <!-- Destination Dropdown -->
       <li class="relative group">
         <span class="hover:text-yellow-300 cursor-pointer">
-          Destination ▼
+          {{ t('nav.destination') }} ▼
         </span>
 
         <ul
@@ -77,7 +77,7 @@
               to="/northern"
               class="block px-4 py-2 hover:bg-green-800 hover:text-white"
             >
-              Northern Province
+              {{ t('nav.northern') }}
             </RouterLink>
           </li>
 
@@ -86,7 +86,7 @@
               to="/eastern"
               class="block px-4 py-2 hover:bg-green-800 hover:text-white"
             >
-              Eastern Province
+              {{ t('nav.eastern') }}
             </RouterLink>
           </li>
 
@@ -95,7 +95,7 @@
               to="/kigali"
               class="block px-4 py-2 hover:bg-green-800 hover:text-white"
             >
-              Kigali City
+              {{ t('nav.kigali') }}
             </RouterLink>
           </li>
 
@@ -104,7 +104,7 @@
               to="/western"
               class="block px-4 py-2 hover:bg-green-800 hover:text-white"
             >
-              Western Province
+              {{ t('nav.western') }}
             </RouterLink>
           </li>
 
@@ -113,7 +113,7 @@
               to="/southern"
               class="block px-4 py-2 hover:bg-green-800 hover:text-white"
             >
-              Southern Province
+              {{ t('nav.southern') }}
             </RouterLink>
           </li>
         </ul>
@@ -122,7 +122,7 @@
       <!-- Language Dropdown -->
       <li class="relative group">
         <span class="hover:text-yellow-300 cursor-pointer">
-          Language ▼
+          {{ t('nav.language') }} ▼
         </span>
 
         <ul
@@ -130,6 +130,7 @@
         >
           <li>
             <button
+              @click="setLocale('en')"
               class="w-full text-left px-4 py-2 hover:bg-green-800 hover:text-white"
             >
               English
@@ -138,6 +139,7 @@
 
           <li>
             <button
+              @click="setLocale('rw')"
               class="w-full text-left px-4 py-2 hover:bg-green-800 hover:text-white"
             >
               Ikinyarwanda
@@ -146,6 +148,7 @@
 
           <li>
             <button
+              @click="setLocale('fr')"
               class="w-full text-left px-4 py-2 hover:bg-green-800 hover:text-white"
             >
               Français
@@ -157,7 +160,7 @@
       <!-- Contact -->
       <li>
         <RouterLink to="/contact" class="hover:text-yellow-300 transition">
-          Contact
+          {{ t('nav.contact') }}
         </RouterLink>
       </li>
 
@@ -167,4 +170,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import { useI18n } from '../i18n.js'
+
+const { t, setLocale } = useI18n()
 </script>

@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white px-6">
         <h1 class="text-5xl md:text-7xl font-bold mb-4">
-          Rwanda Videos
+          {{ t('gallery.videosTitle') }}
         </h1>
 
         <p class="text-xl text-gray-200">
-          Watch and Experience the Beauty of Rwanda
+          {{ t('gallery.videosText') }}
         </p>
       </div>
     </div>
@@ -44,11 +44,11 @@
     <!-- TITLE -->
     <div class="text-center py-12">
       <h2 class="text-4xl font-bold text-green-700">
-        Explore Rwanda Through Video
+        {{ t('gallery.videosHeading') }}
       </h2>
 
       <p class="text-gray-600 mt-4 text-lg">
-        Culture, Tourism, Wildlife and Adventure
+        {{ t('gallery.videosHeadingText') }}
       </p>
     </div>
 
@@ -68,7 +68,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              Visit Rwanda
+              {{ t('gallery.video1Title') }}
             </h3>
           </div>
         </div>
@@ -85,7 +85,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              Rwanda Tourism
+              {{ t('gallery.video2Title') }}
             </h3>
           </div>
         </div>
@@ -101,7 +101,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              Wildlife & Nature
+              {{ t('gallery.video3Title') }}
             </h3>
           </div>
         </div>
@@ -117,7 +117,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              Kigali City
+              {{ t('gallery.video4Title') }}
             </h3>
           </div>
         </div>
@@ -146,11 +146,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white text-center py-10">
       <h2 class="text-3xl font-bold mb-3">
-        Visit Rwanda
+        {{ t('gallery.footerTitle') }}
       </h2>
 
       <p class="text-gray-300">
-        Discover • Watch • Experience Rwanda
+        {{ t('gallery.footerText') }}
       </p>
     </footer>
 
@@ -158,4 +158,6 @@
 </template>
 
 <script setup>
+import { useI18n } from '../i18n.js'
+const { t } = useI18n()
 </script>
