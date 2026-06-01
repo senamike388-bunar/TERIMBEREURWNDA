@@ -251,11 +251,11 @@
     <footer class="bg-green-900 text-white text-center py-12">
 
       <h2 class="text-4xl font-bold mb-4">
-        {{ t('destinations.western.footerTitle') }}
+        Visit Western Province
       </h2>
 
       <p class="text-gray-300">
-        {{ t('destinations.western.footerText') }}
+        Discover Rwanda's Natural Paradise
       </p>
 
     </footer>
@@ -264,6 +264,4 @@
 </template>
 
 <script setup>
-import { useI18n } from '../i18n.js'
-const { t } = useI18n()
 </script>

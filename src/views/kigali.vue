@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white px-4">
         <h1 class="text-5xl md:text-7xl font-bold mb-6">
-          {{ t('destinations.kigali.title') }}
+          Kigali City
         </h1>
 
         <p class="text-xl md:text-2xl text-gray-200">
-          {{ t('destinations.kigali.heroText') }}
+          The Heart of Rwanda
         </p>
       </div>
     </section>
@@ -36,11 +36,14 @@
     <section class="py-20 px-8 md:px-20 bg-white">
       <div class="max-w-5xl mx-auto text-center">
         <h2 class="text-4xl font-bold text-green-700 mb-6">
-          {{ t('destinations.kigali.welcomeTitle') }}
+          Welcome to Kigali
         </h2>
 
         <p class="text-lg text-gray-600 leading-8">
-          {{ t('destinations.kigali.welcomeText') }}
+          Kigali is the capital city of Rwanda and one of the cleanest,
+          safest, and fastest-growing cities in Africa. Known for its
+          beautiful hills, modern infrastructure, and warm hospitality,
+          Kigali is the perfect gateway to exploring Rwanda.
         </p>
       </div>
     </section>
@@ -49,7 +52,7 @@
     <section class="py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.common.topAttractions') }}
+        Top Attractions
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -88,7 +91,7 @@
     <section class="bg-white py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.kigali.galleryTitle') }}
+        Kigali Gallery
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -116,7 +119,7 @@
     <section class="py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.kigali.hotelsTitle') }}
+        Best Hotels in Kigali
       </h2>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -150,7 +153,7 @@
 
       <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-green-700">
-          {{ t('destinations.kigali.findTitle') }}
+          Find Kigali
         </h2>
       </div>
 
@@ -158,15 +161,15 @@
 
         <div class="bg-gray-100 p-8 rounded-3xl shadow-xl">
           <h3 class="text-3xl font-bold text-green-700 mb-6">
-            {{ t('destinations.kigali.info.title') }}
+            City Information
           </h3>
 
           <ul class="space-y-4 text-lg">
-            <li>📍 {{ t('destinations.kigali.info.capital') }}</li>
-            <li>🏙️ {{ t('destinations.kigali.info.infrastructure') }}</li>
-            <li>✈️ {{ t('destinations.kigali.info.airport') }}</li>
-            <li>🌍 {{ t('destinations.kigali.info.hub') }}</li>
-            <li>🚗 {{ t('destinations.kigali.info.connected') }}</li>
+            <li>📍 Capital City of Rwanda</li>
+            <li>🏙️ Modern Infrastructure</li>
+            <li>✈️ Kigali International Airport</li>
+            <li>🌍 Business & Technology Hub</li>
+            <li>🚗 Connected to all provinces</li>
           </ul>
         </div>
 
@@ -196,11 +199,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white text-center py-12">
       <h2 class="text-4xl font-bold mb-4">
-        {{ t('destinations.kigali.footerTitle') }}
+        Visit Kigali
       </h2>
 
       <p class="text-gray-300">
-        {{ t('destinations.kigali.footerText') }}
+        Discover Rwanda's Modern and Beautiful Capital
       </p>
     </footer>
 
@@ -208,6 +211,4 @@
 </template>
 
 <script setup>
-import { useI18n } from '../i18n.js'
-const { t } = useI18n()
 </script>

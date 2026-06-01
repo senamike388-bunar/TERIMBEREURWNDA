@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white px-4">
         <h1 class="text-5xl md:text-7xl font-bold mb-6">
-          {{ t('destinations.northern.title') }}
+          Northern Province
         </h1>
 
         <p class="text-xl md:text-2xl">
-          {{ t('destinations.northern.heroText') }}
+          Home of Mountain Gorillas and Volcanoes
         </p>
       </div>
     </section>
@@ -36,11 +36,14 @@
       <div class="max-w-5xl mx-auto text-center">
 
         <h2 class="text-4xl font-bold text-green-700 mb-6">
-          {{ t('destinations.northern.welcomeTitle') }}
+          Welcome to Northern Province
         </h2>
 
         <p class="text-lg text-gray-600 leading-8">
-          {{ t('destinations.northern.welcomeText') }}
+          Northern Province is one of Rwanda's most famous tourism
+          destinations. It is home to Volcanoes National Park,
+          mountain gorillas, beautiful lakes, volcanic mountains,
+          and breathtaking scenery.
         </p>
 
       </div>
@@ -59,11 +62,12 @@
         <div>
 
           <h2 class="text-4xl font-bold text-green-700 mb-6">
-            {{ t('destinations.northern.volcanoesTitle') }}
+            Volcanoes National Park
           </h2>
 
           <p class="text-lg text-gray-600 leading-8 mb-6">
-            {{ t('destinations.northern.volcanoesText') }}
+            Rwanda's most famous national park, home to endangered
+            mountain gorillas and the Virunga Volcanoes.
           </p>
 
           <ul class="space-y-3 text-lg">
@@ -83,7 +87,7 @@
     <section class="bg-white py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.common.topAttractions') }}
+        Top Attractions
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -126,7 +130,7 @@
     <section class="py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.common.thingsToDo') }}
+        Things To Do
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -163,7 +167,7 @@
     <section class="bg-white py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.northern.galleryTitle') }}
+        Northern Province Gallery
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -191,7 +195,7 @@
     <section class="py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.northern.hotelsTitle') }}
+        Popular Hotels
       </h2>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -221,7 +225,7 @@
 
       <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-green-700">
-          {{ t('destinations.northern.findTitle') }}
+          Find Northern Province
         </h2>
       </div>
 
@@ -230,15 +234,15 @@
         <div class="bg-gray-100 p-8 rounded-3xl shadow-xl">
 
           <h3 class="text-3xl font-bold text-green-700 mb-6">
-            {{ t('destinations.northern.info.title') }}
+            Province Information
           </h3>
 
           <ul class="space-y-4 text-lg">
-            <li>📍 {{ t('destinations.northern.info.province') }}</li>
-            <li>🏙️ {{ t('destinations.northern.info.city') }}</li>
-            <li>🌋 {{ t('destinations.northern.info.feature1') }}</li>
-            <li>🦍 {{ t('destinations.northern.info.feature2') }}</li>
-            <li>🏞️ {{ t('destinations.northern.info.feature3') }}</li>
+            <li>📍 Province: Northern Province</li>
+            <li>🏙️ Main City: Musanze</li>
+            <li>🌋 Volcanoes National Park</li>
+            <li>🦍 Gorilla Trekking</li>
+            <li>🏞️ Twin Lakes Burera & Ruhondo</li>
           </ul>
 
         </div>
@@ -269,11 +273,11 @@
     <footer class="bg-green-900 text-white text-center py-12">
 
       <h2 class="text-4xl font-bold mb-4">
-        {{ t('destinations.northern.footerTitle') }}
+        Visit Northern Province
       </h2>
 
       <p class="text-gray-300">
-        {{ t('destinations.northern.footerText') }}
+        Discover Gorillas, Volcanoes and Adventure
       </p>
 
     </footer>
@@ -282,6 +286,4 @@
 </template>
 
 <script setup>
-import { useI18n } from '../i18n.js'
-const { t } = useI18n()
 </script>

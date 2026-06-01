@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white px-4">
         <h1 class="text-5xl md:text-7xl font-bold mb-6">
-          {{ t('destinations.eastern.title') }}
+          Eastern Province
         </h1>
 
         <p class="text-xl md:text-2xl text-gray-200">
-          {{ t('destinations.eastern.heroText') }}
+          Wildlife • Nature • Culture • Adventure
         </p>
       </div>
     </section>
@@ -38,11 +38,13 @@
       <div class="max-w-5xl mx-auto text-center">
 
         <h2 class="text-4xl font-bold text-green-700 mb-6">
-          {{ t('destinations.eastern.welcomeTitle') }}
+          Welcome to Eastern Province
         </h2>
 
         <p class="text-lg text-gray-600 leading-8">
-          {{ t('destinations.eastern.welcomeText') }}
+          Eastern Province is one of Rwanda's most beautiful destinations.
+          It is famous for Akagera National Park, lakes, wildlife,
+          agriculture, and stunning landscapes.
         </p>
 
       </div>
@@ -90,7 +92,7 @@
     <section class="bg-white py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.common.topAttractions') }}
+        Top Attractions
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -133,7 +135,7 @@
     <section class="py-20 px-8 md:px-20">
 
       <h2 class="text-4xl font-bold text-center text-green-700 mb-12">
-        {{ t('destinations.eastern.galleryTitle') }}
+        Wildlife Gallery
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -162,11 +164,11 @@
 
       <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-green-700 mb-4">
-          {{ t('destinations.eastern.findTitle') }}
+          Find Eastern Province
         </h2>
 
         <p class="text-gray-600 text-lg">
-          {{ t('destinations.eastern.findText') }}
+          Located in the eastern region of Rwanda.
         </p>
       </div>
 
@@ -221,11 +223,11 @@
     <footer class="bg-green-900 text-white text-center py-12">
 
       <h2 class="text-4xl font-bold mb-4">
-        {{ t('destinations.eastern.footerTitle') }}
+        Visit Eastern Province
       </h2>
 
       <p class="text-gray-300">
-        {{ t('destinations.eastern.footerText') }}
+        Explore Nature, Wildlife and Culture
       </p>
 
     </footer>
@@ -234,6 +236,4 @@
 </template>
 
 <script setup>
-import { useI18n } from '../i18n.js'
-const { t } = useI18n()
 </script>

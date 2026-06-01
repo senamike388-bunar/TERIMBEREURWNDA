@@ -6,7 +6,6 @@ import Services from '../views/services.vue'
 import Contact from '../views/contact.vue'
 import Video from '../views/video.vue'
 import Photos from '../views/photos.vue'
-
 import Kigali from '../views/kigali.vue'
 import Northern from '../views/northern.vue'
 import Southern from '../views/southern.vue'

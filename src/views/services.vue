@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white">
         <h1 class="text-5xl md:text-7xl font-bold mb-4">
-          {{ t('services.heroTitle') }}
+          Our Services
         </h1>
 
         <p class="text-xl text-gray-200">
-          {{ t('services.heroText') }}
+          Explore Rwanda with comfort, adventure and unforgettable experiences.
         </p>
       </div>
     </div>
@@ -24,11 +24,11 @@
 
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-green-700">
-          {{ t('services.title') }}
+          Services We Provide
         </h2>
 
         <p class="text-gray-600 mt-4">
-          {{ t('services.subtitle') }}
+          Everything you need to enjoy Rwanda.
         </p>
       </div>
 
@@ -43,11 +43,11 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700 mb-3">
-              {{ t('services.card1Title') }}
+              Gorilla Tourism
             </h3>
 
             <p class="text-gray-600">
-              {{ t('services.card1Text') }}
+              Visit Volcanoes National Park and experience Rwanda's famous mountain gorillas.
             </p>
           </div>
         </div>
@@ -61,11 +61,11 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700 mb-3">
-              {{ t('services.card2Title') }}
+              Luxury Hotels
             </h3>
 
             <p class="text-gray-600">
-              {{ t('services.card2Text') }}
+              Stay in world-class hotels including Kigali Marriott, Serena Hotel and Radisson Blu.
             </p>
           </div>
         </div>
@@ -79,11 +79,11 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700 mb-3">
-              {{ t('services.card3Title') }}
+              Transport Services
             </h3>
 
             <p class="text-gray-600">
-              {{ t('services.card3Text') }}
+              Car rentals, airport pickups, city tours and travel assistance.
             </p>
           </div>
         </div>
@@ -96,7 +96,7 @@
 
       <div class="text-center mb-14">
         <h2 class="text-4xl font-bold text-green-700">
-          {{ t('services.hotelsTitle') }}
+          Popular Hotels
         </h2>
       </div>
 
@@ -104,37 +104,37 @@
 
         <div class="bg-gray-100 rounded-2xl p-6 shadow">
           <h3 class="text-xl font-bold text-green-700 mb-2">
-            {{ t('services.hotel1') }}
+            Kigali Marriott Hotel
           </h3>
           <p class="text-gray-600">
-            {{ t('services.hotel1Text') }}
+            Luxury accommodation in Kigali.
           </p>
         </div>
 
         <div class="bg-gray-100 rounded-2xl p-6 shadow">
           <h3 class="text-xl font-bold text-green-700 mb-2">
-            {{ t('services.hotel2') }}
+            Serena Hotel
           </h3>
           <p class="text-gray-600">
-            {{ t('services.hotel2Text') }}
+            Premium comfort and hospitality.
           </p>
         </div>
 
         <div class="bg-gray-100 rounded-2xl p-6 shadow">
           <h3 class="text-xl font-bold text-green-700 mb-2">
-            {{ t('services.hotel3') }}
+            Radisson Blu
           </h3>
           <p class="text-gray-600">
-            {{ t('services.hotel3Text') }}
+            Modern rooms and conference facilities.
           </p>
         </div>
 
         <div class="bg-gray-100 rounded-2xl p-6 shadow">
           <h3 class="text-xl font-bold text-green-700 mb-2">
-            {{ t('services.hotel4') }}
+            Lake Kivu Resort
           </h3>
           <p class="text-gray-600">
-            {{ t('services.hotel4Text') }}
+            Relaxing views near Lake Kivu.
           </p>
         </div>
 
@@ -146,7 +146,7 @@
 
       <div class="text-center mb-14">
         <h2 class="text-4xl font-bold">
-          {{ t('services.attractionsTitle') }}
+          Top Attractions
         </h2>
       </div>
 
@@ -154,22 +154,22 @@
 
         <div>
           <div class="text-6xl mb-4">🦍</div>
-          <h3 class="text-2xl font-bold">{{ t('services.attraction1') }}</h3>
+          <h3 class="text-2xl font-bold">Volcanoes Park</h3>
         </div>
 
         <div>
           <div class="text-6xl mb-4">🏞️</div>
-          <h3 class="text-2xl font-bold">{{ t('services.attraction2') }}</h3>
+          <h3 class="text-2xl font-bold">Lake Kivu</h3>
         </div>
 
         <div>
           <div class="text-6xl mb-4">🌳</div>
-          <h3 class="text-2xl font-bold">{{ t('services.attraction3') }}</h3>
+          <h3 class="text-2xl font-bold">Nyungwe Forest</h3>
         </div>
 
         <div>
           <div class="text-6xl mb-4">🏙️</div>
-          <h3 class="text-2xl font-bold">{{ t('services.attraction4') }}</h3>
+          <h3 class="text-2xl font-bold">Kigali City</h3>
         </div>
 
       </div>
@@ -190,6 +190,4 @@
 </template>
 
 <script setup>
-import { useI18n } from '../i18n.js'
-const { t } = useI18n()
 </script>

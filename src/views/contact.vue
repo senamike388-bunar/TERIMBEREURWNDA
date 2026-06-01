@@ -12,11 +12,12 @@
       <!-- Text -->
       <div class="relative z-10 text-center text-white px-6">
         <h1 class="text-5xl md:text-7xl font-bold mb-6">
-          {{ t('contact.heroTitle') }}
+          Contact Us
         </h1>
 
         <p class="text-lg md:text-2xl text-gray-200 max-w-3xl mx-auto">
-          {{ t('contact.heroText') }}
+          We'd love to hear from you. Reach out to us for tourism,
+          culture, and travel information about Rwanda.
         </p>
       </div>
     </div>
@@ -30,11 +31,12 @@
         <div>
 
           <h2 class="text-4xl font-bold text-green-700 mb-6">
-            {{ t('contact.title') }}
+            Get In Touch
           </h2>
 
           <p class="text-gray-600 text-lg leading-8 mb-10">
-            {{ t('contact.lead') }}
+            Feel free to contact us anytime. We are always ready to help
+            visitors explore the beauty and culture of Rwanda.
           </p>
 
           <!-- CONTACT INFO -->
@@ -47,11 +49,11 @@
 
               <div>
                 <h3 class="font-bold text-xl text-gray-800">
-                  {{ t('contact.addressTitle') }}
+                  Address
                 </h3>
 
                 <p class="text-gray-600">
-                  {{ t('contact.addressLine') }}
+                  Kigali, Rwanda
                 </p>
               </div>
             </div>
@@ -63,11 +65,11 @@
 
               <div>
                 <h3 class="font-bold text-xl text-gray-800">
-                  {{ t('contact.phoneTitle') }}
+                  Phone
                 </h3>
 
                 <p class="text-gray-600">
-                  {{ t('contact.phoneNumber') }}
+                  +250 788 000 000
                 </p>
               </div>
             </div>
@@ -79,11 +81,11 @@
 
               <div>
                 <h3 class="font-bold text-xl text-gray-800">
-                  {{ t('contact.emailTitle') }}
+                  Email
                 </h3>
 
                 <p class="text-gray-600">
-                  {{ t('contact.emailAddress') }}
+                  visitrwanda@gmail.com
                 </p>
               </div>
             </div>
@@ -95,7 +97,7 @@
         <div class="bg-white p-10 rounded-3xl shadow-2xl">
 
           <h2 class="text-3xl font-bold text-green-700 mb-8">
-            {{ t('contact.formTitle') }}
+            Send Message
           </h2>
 
           <form class="space-y-6">
@@ -103,7 +105,7 @@
             <!-- NAME -->
             <div>
               <label class="block mb-2 text-gray-700 font-semibold">
-                {{ t('contact.nameLabel') }}
+                Full Name
               </label>
 
               <input
@@ -116,7 +118,7 @@
             <!-- EMAIL -->
             <div>
               <label class="block mb-2 text-gray-700 font-semibold">
-                {{ t('contact.emailLabel') }}
+                Email Address
               </label>
 
               <input
@@ -129,7 +131,7 @@
             <!-- MESSAGE -->
             <div>
               <label class="block mb-2 text-gray-700 font-semibold">
-                {{ t('contact.messageLabel') }}
+                Message
               </label>
 
               <textarea
@@ -144,7 +146,7 @@
               type="submit"
               class="bg-green-700 hover:bg-green-800 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 w-full"
             >
-              {{ t('contact.button') }}
+              Send Message
             </button>
 
           </form>
@@ -156,11 +158,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white py-10 text-center">
       <h2 class="text-3xl font-bold mb-3">
-        {{ t('contact.footerTitle') }}
+        Visit Rwanda
       </h2>
 
       <p class="text-gray-300">
-        {{ t('contact.footerText') }}
+        Experience Beauty, Culture, and Peace
       </p>
     </footer>
 
@@ -168,6 +170,4 @@
 </template>
 
 <script setup>
-import { useI18n } from '../i18n.js'
-const { t } = useI18n()
 </script>

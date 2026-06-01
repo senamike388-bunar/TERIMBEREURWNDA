@@ -10,11 +10,11 @@
 
       <div class="relative z-10 text-center text-white px-6">
         <h1 class="text-5xl md:text-7xl font-bold mb-4">
-          {{ t('gallery.videosTitle') }}
+          Rwanda Videos
         </h1>
 
         <p class="text-xl text-gray-200">
-          {{ t('gallery.videosText') }}
+          Watch and Experience the Beauty of Rwanda
         </p>
       </div>
     </div>
@@ -44,11 +44,11 @@
     <!-- TITLE -->
     <div class="text-center py-12">
       <h2 class="text-4xl font-bold text-green-700">
-        {{ t('gallery.videosHeading') }}
+        Explore Rwanda Through Video
       </h2>
 
       <p class="text-gray-600 mt-4 text-lg">
-        {{ t('gallery.videosHeadingText') }}
+        Culture, Tourism, Wildlife and Adventure
       </p>
     </div>
 
@@ -68,7 +68,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              {{ t('gallery.video1Title') }}
+              Visit Rwanda
             </h3>
           </div>
         </div>
@@ -85,7 +85,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              {{ t('gallery.video2Title') }}
+              Rwanda Tourism
             </h3>
           </div>
         </div>
@@ -101,7 +101,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              {{ t('gallery.video3Title') }}
+              Wildlife & Nature
             </h3>
           </div>
         </div>
@@ -117,7 +117,7 @@
 
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              {{ t('gallery.video4Title') }}
+              Kigali City
             </h3>
           </div>
         </div>
@@ -146,11 +146,11 @@
     <!-- FOOTER -->
     <footer class="bg-green-900 text-white text-center py-10">
       <h2 class="text-3xl font-bold mb-3">
-        {{ t('gallery.footerTitle') }}
+        Visit Rwanda
       </h2>
 
       <p class="text-gray-300">
-        {{ t('gallery.footerText') }}
+        Discover • Watch • Experience Rwanda
       </p>
     </footer>
 
@@ -158,6 +158,4 @@
 </template>
 
 <script setup>
-import { useI18n } from '../i18n.js'
-const { t } = useI18n()
 </script>
