@@ -1,16 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import Home from '../views/home.vue'
 import About from '../views/About.vue'
-import services from '../views/services.vue'
-import contact from '../views/contact.vue'
-import video from '../views/video.vue'
+import Services from '../views/services.vue'
+import Contact from '../views/contact.vue'
+import Video from '../views/video.vue'
 import Photos from '../views/photos.vue'
-import Kigali from '../views/kigali.vue'
-import northern from '../views/northern.vue'
-import Southern from '../views/southern.vue'
-import Eastern from '../views/Eastern.vue'
-import Western from '../views/western.vue'
 
+import Kigali from '../views/kigali.vue'
+import Northern from '../views/northern.vue'
+import Southern from '../views/southern.vue'
+import Eastern from '../views/eastern.vue'
+import Western from '../views/western.vue'
 
 const routes = [
   {
@@ -18,58 +19,58 @@ const routes = [
     name: 'Home',
     component: Home,
   },
-
   {
     path: '/about',
     name: 'About',
     component: About,
   },
   {
-    path:'/services',
-    name:'services',
-    component:services,
+    path: '/services',
+    name: 'Services',
+    component: Services,
   },
   {
-     path:'/contact',
-    name:'Contact',
-    component:contact,
+    path: '/contact',
+    name: 'Contact',
+    component: Contact,
   },
   {
-  path:'/video',
-    name:'video',
-    component:video,
+    path: '/video',
+    name: 'Video',
+    component: Video,
   },
   {
-    path:'/photos',
-    name:'photos',
-    component:Photos, 
+    path: '/photos',
+    name: 'Photos',
+    component: Photos,
+  },
+
+  // Regions
+  {
+    path: '/kigali',
+    name: 'Kigali',
+    component: Kigali,
   },
   {
-  path:'/kigali',
-    name:'kigali',
-    component:Kigali,
+    path: '/northern',
+    name: 'Northern',
+    component: Northern,
   },
   {
-  path:'/northern',
-    name:'northern',
-    component:northern,
+    path: '/southern',
+    name: 'Southern',
+    component: Southern,
   },
   {
-     path:'/Southern',
-    name:'Southern',
-    component:Southern,
+    path: '/eastern',
+    name: 'Eastern',
+    component: Eastern,
   },
   {
-     path:'/Eastern',
-    name:'Eastern',
-    component:Eastern,
+    path: '/western',
+    name: 'Western',
+    component: Western,
   },
-  {
-    path:'/Western',
-    name:'Western',
-    component:Western,
-  }
-  
 ]
 
 const router = createRouter({
