@@ -162,7 +162,7 @@
       </h2>
 
       <p class="text-gray-300">
-        Experience Beauty, Culture, and Peace
+        Experience Beauty, Culture, and Peace at the Heart of Africa
       </p>
     </footer>
 
