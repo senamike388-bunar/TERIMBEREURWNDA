@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "intenarship",
   "private": true,
   "version": "0.0.0",
@@ -18,15 +17,5 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.6",
     "vite": "^8.0.12"
-=======
-  "private": true,
-  "workspaces": [
-    "intenarship"
-  ],
-  "scripts": {
-    "build": "npm --prefix intenarship run build",
-    "dev": "npm --prefix intenarship run dev",
-    "preview": "npm --prefix intenarship run preview"
->>>>>>> d65bdfe (updatefiles)
   }
 }
